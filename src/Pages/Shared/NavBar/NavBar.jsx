@@ -1,14 +1,17 @@
+import { Link } from "react-router-dom";
+
 const NavBar = () => {
   const navOptions = (
     <>
       <li>
-        <a>Item 1</a>
+        <Link to={"/"} className="text-white">
+          Home
+        </Link>
       </li>
       <li>
-        <a>Parent</a>
-      </li>
-      <li>
-        <a>Item 3</a>
+        <Link to={"/menu"} className="text-white">
+          Menu
+        </Link>
       </li>
     </>
   );
