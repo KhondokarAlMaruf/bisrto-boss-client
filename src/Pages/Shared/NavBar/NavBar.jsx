@@ -13,6 +13,11 @@ const NavBar = () => {
           Menu
         </Link>
       </li>
+      <li>
+        <Link to={"/order"} className="text-white">
+          Order Food
+        </Link>
+      </li>
     </>
   );
   return (
