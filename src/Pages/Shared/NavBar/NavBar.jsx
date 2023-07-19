@@ -18,6 +18,11 @@ const NavBar = () => {
           Order Food
         </Link>
       </li>
+      <li>
+        <Link to={"/login"} className="text-white">
+          Login
+        </Link>
+      </li>
     </>
   );
   return (
